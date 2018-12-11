@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  restonodeapi:
+    image: ${DOCKER_REGISTRY}restonodeapi
+    build:
+      context: .
+      dockerfile: RestonodeAPI/Dockerfile
+
+  restonode.messaging:
+    image: ${DOCKER_REGISTRY}restonodemessaging
+    build:
+      context: .
+      dockerfile: Restonode.Messaging/Dockerfile
+
+
+  restonode.api:
+    image: ${DOCKER_REGISTRY}restonodeapi
+    build:
+      context: .
+      dockerfile: RestonodeAPI/Dockerfile
+
+
+  restonode.tests:
+    image: ${DOCKER_REGISTRY}restonodetests
+    build:
+      context: .
+      dockerfile: Restonode.Tests/Dockerfile
+

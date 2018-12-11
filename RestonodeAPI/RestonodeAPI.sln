@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restonode.API", "RestonodeAPI\Restonode.API.csproj", "{356E18F1-0DC6-4D5F-B2F0-43324F87238E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{635B357A-A216-48C1-AAA7-916A65A2BC2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restonode.DAL", "Restonode.DAL\Restonode.DAL.csproj", "{254289EB-E003-4088-9F46-4462D589FFEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restonode.Business", "Restonode.Business\Restonode.Business.csproj", "{72A80D4D-E68D-4A84-A77B-FA47AAAF6CCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restonode.Messaging", "Restonode.Messaging\Restonode.Messaging.csproj", "{D9AD9B8F-4979-46E0-8250-7B4EF721C98D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restonode.Common", "Restonode.Common\Restonode.Common.csproj", "{F57B23C8-7BFE-4E66-AA64-B3C6137279EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restonode.Tests", "Restonode.Tests\Restonode.Tests.csproj", "{955A809E-A37B-40AB-BCA1-186B8CC65F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{356E18F1-0DC6-4D5F-B2F0-43324F87238E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356E18F1-0DC6-4D5F-B2F0-43324F87238E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356E18F1-0DC6-4D5F-B2F0-43324F87238E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356E18F1-0DC6-4D5F-B2F0-43324F87238E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635B357A-A216-48C1-AAA7-916A65A2BC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635B357A-A216-48C1-AAA7-916A65A2BC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635B357A-A216-48C1-AAA7-916A65A2BC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635B357A-A216-48C1-AAA7-916A65A2BC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{254289EB-E003-4088-9F46-4462D589FFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254289EB-E003-4088-9F46-4462D589FFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254289EB-E003-4088-9F46-4462D589FFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254289EB-E003-4088-9F46-4462D589FFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A80D4D-E68D-4A84-A77B-FA47AAAF6CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A80D4D-E68D-4A84-A77B-FA47AAAF6CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A80D4D-E68D-4A84-A77B-FA47AAAF6CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A80D4D-E68D-4A84-A77B-FA47AAAF6CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AD9B8F-4979-46E0-8250-7B4EF721C98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AD9B8F-4979-46E0-8250-7B4EF721C98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AD9B8F-4979-46E0-8250-7B4EF721C98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AD9B8F-4979-46E0-8250-7B4EF721C98D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57B23C8-7BFE-4E66-AA64-B3C6137279EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57B23C8-7BFE-4E66-AA64-B3C6137279EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57B23C8-7BFE-4E66-AA64-B3C6137279EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57B23C8-7BFE-4E66-AA64-B3C6137279EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955A809E-A37B-40AB-BCA1-186B8CC65F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955A809E-A37B-40AB-BCA1-186B8CC65F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955A809E-A37B-40AB-BCA1-186B8CC65F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955A809E-A37B-40AB-BCA1-186B8CC65F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {604A7877-3E04-4F88-8D78-BE8BB1840E04}
+	EndGlobalSection
+EndGlobal

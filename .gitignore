@@ -3,3 +3,18 @@
 ################################################################################
 
 /RestonodeAPI/obj
+/RestonodeAPI/Restonode.Business/bin/Debug/netcoreapp2.1
+/RestonodeAPI/Restonode.Business/obj
+/RestonodeAPI/Restonode.Common/bin/Debug/netcoreapp2.1
+/RestonodeAPI/Restonode.Common/obj
+/RestonodeAPI/Restonode.DAL/bin/Debug/netcoreapp2.1
+/RestonodeAPI/Restonode.DAL/obj
+/RestonodeAPI/Restonode.Messaging/bin/Debug/netcoreapp2.1
+/RestonodeAPI/Restonode.Messaging/obj
+/RestonodeAPI/Restonode.Tests/bin/Debug/netcoreapp2.1
+/RestonodeAPI/Restonode.Tests/obj
+/RestonodeAPI/RestonodeAPI/bin/Debug/netcoreapp2.1
+/RestonodeAPI/RestonodeAPI/obj
+/RestonodeAPI/.vs/RestonodeAPI/v15/Server/sqlite3
+/RestonodeAPI/.vs/RestonodeAPI/DesignTimeBuild
+/RestonodeAPI/.vs
